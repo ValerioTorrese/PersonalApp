@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Appunti"
+            android:icon="@drawable/ic_event_note_black_24dp"
+            android:title="Appunti" />
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Gallery" />
+        <item
+            android:id="@+id/link_utili"
+            android:icon="@drawable/ic_link_black_24dp"
+            android:title="Link utili" />
+        <item
+            android:id="@+id/nav_manage"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Gestione" />
+    </group>
+
+    <item android:title="Turni">
+        <menu>
+            <item
+                android:id="@+id/Carrelli"
+                android:icon="@drawable/ic_shopping_cart_black_24dp"
+                android:title="Carrelli" />
+            <item
+                android:id="@+id/Centralino"
+                android:icon="@drawable/ic_library_books_black_24dp"
+                android:title="Centralino" />
+        </menu>
+    </item>
+
+</menu>

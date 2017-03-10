@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="act_array">
+        <item>Cons. oggetti</item>
+        <item>Centralino</item>
+        <item>Carrelli</item>
+        <item>Centr. Pagamento </item>
+</string-array>
+</resources>

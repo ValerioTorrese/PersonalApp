@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/prova_linear_appunti"
+    android:layout_margin="3sp"
+    android:padding="5sp"
+    android:background="@color/background">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Titolo"
+        android:textSize="20sp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:id="@+id/titolo_appunti"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Data Scadenza(dd/mm/yyyy)"
+        android:textSize="20sp"
+        android:id="@+id/data_appunti" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Descrizione"
+        android:textSize="20sp"
+        android:id="@+id/descrizione_appunti"/>
+    </LinearLayout>
+</LinearLayout>
